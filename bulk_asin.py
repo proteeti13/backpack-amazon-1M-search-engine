@@ -11,9 +11,6 @@ similar_items = []
 
 
 
-#####################################################
-
-
 def getDriver():
     mypath = "C:\webdrivers\chromedriver.exe"
     options = Options()
