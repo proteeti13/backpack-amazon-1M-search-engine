@@ -129,7 +129,7 @@ def foreachURL(product_urls):
 
 def main():
 
-    with open('asin.csv') as csvfile:
+    with open('out.csv') as csvfile:
         reader = csv.reader(csvfile)
         asin_list = list(reader)
         product_urls = []
