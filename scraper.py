@@ -13,7 +13,6 @@ import elastic
 
 jsonarray = []
 
-
 def getAsin(gist):
     gist_data = requests.get(gist)
     asins = gist_data.text
@@ -39,8 +38,8 @@ def getDriver():
     return driver
 
 
-
 def getPrice(driver):
+    
     try:
         if (driver.find_element_by_id("priceblock_ourprice")== None):
             # print("1")
@@ -94,7 +93,6 @@ def getImages(driver):
             images.append(".".join(img_src))
 
     return images
-
 
 
 def makeDict(driver):
