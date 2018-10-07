@@ -4,7 +4,10 @@ part 2 of the recruitment project
 
 ## Getting Started
 
-* 
+*  Used the 10k asins from part1 to get their similar asins (for generating bulk asins)
+*  Scrape {"title", "image", "price"} for each product. 
+*  upload the json data to elasticsearch.
+*  Seach by text, prefix, compared by price from their index and return corresponding record.
 
 
 ### Questions
