@@ -18,18 +18,18 @@ part 2 of the recruitment project
     * The budget can be increased.
     
 * For each field, what % of the items are missing that field? Any idea why and how to minimize?
- * For the "title" and "image" fields, atmost 30% of the items were missed. But for the "price" field, more than 50% ietms were missed and I couldn't find out the solution. 
- * My code needs be more flexible to scrape data in all types of markups and layouts with handling the exceptions too.
+  * For the "title" and "image" fields, atmost 30% of the items were missed. But for the "price" field, more than 50% ietms were missed and I couldn't find out the solution. 
+  * My code needs be more flexible to scrape data in all types of markups and layouts with handling the exceptions too.
  
 * Approximately, how much will it cost every time you’ll refresh your inventory? How to bring that down?
- * With Amazon Coudsearch, atmost $19 is needed for 850GB to per hour.
- * Deploying more server can be solution. Clustering the data in multiple aws regions can be a solution.
+  * With Amazon Coudsearch, atmost $19 is needed for 850GB to per hour.
+  * Deploying more server can be solution. Clustering the data in multiple aws regions can be a solution.
 
 * How to scale this to 10M items? Or 100M?
- * Implementing proper instances according to need in aws (cpu optimized/memory optimized)
- * Implementing the storage in different availablity zones with master-slave replication.
- * Implementing load balancer and elasticache in a proper manner to handle huge requests.
- * Make the scraper bug free by handing all kind of layouts/markups and exception handling.
- * Implementing parallelism at its level best.
+  * Implementing proper instances according to need in aws (cpu optimized/memory optimized)
+  * Implementing the storage in different availablity zones with master-slave replication.
+  * Implementing load balancer and elasticache in a proper manner to handle huge requests.
+  * Make the scraper bug free by handing all kind of layouts/markups and exception handling.
+  * Implementing parallelism at its level best.
 
 
